@@ -1,0 +1,88 @@
+h1, h4, p {
+    margin: 0;
+}
+
+body {
+    width: 800px;
+    background-color : #4DBCF8;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 15px;
+    line-height: 2;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.sekcia1, .sekcia2, .sekcia3 {
+    border-bottom: 2px solid #256f97;
+}
+
+
+
+h1, h4, .header-p {
+    letter-spacing: 1px;
+}
+
+h4, .header-p {
+    color: #256f97;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.header-p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.face-icon {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 180px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.work {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4DBCF8;
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    padding: 15px 40px;
+    margin-top: 50px;
+    font-size: larger;
+    font-variant: small-caps;
+    letter-spacing: 1px;  
+}
+
+button:hover {
+    background-color: rgb(70, 67, 67);
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0);
+    transition-duration: 1.2s;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
